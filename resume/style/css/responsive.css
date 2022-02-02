@@ -1,0 +1,52 @@
+/*Resposiver !!*/
+
+
+
+
+/*For Tablets & Small PC __Horizontal*/
+@media only screen and (max-width: 1024px) {
+
+}
+/*For Tablets __Vertical*/
+@media only screen and (max-width: 768px) {
+    .leftBar{
+        width: 100%;
+        height: auto;
+    }
+    .rightBar{
+        width: 100%;
+        height: auto;
+    }
+
+}
+/*For Small __AKA Mobile*/
+@media only screen and (max-width: 500px) {
+    .leftBar{
+        width: 100%;
+        height: auto;
+    }
+    .rightBar{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+}
+/*For Extra Small*/
+@media only screen and (max-width: 350px) {
+    .leftBar{
+        width: 100%;
+        height: auto;
+    }
+    .rightBar{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+/*note : Defaults are generated for Desktops and TV*/
+
+
