@@ -1,0 +1,65 @@
+body {
+  font-size: 40px;
+  font-family: "Harmattan", sans-serif;
+  background-color: crimson !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* #app {
+  max-width: 980px;
+  margin: auto;
+  padding: 0 15px;
+  text-align: center;
+} */
+
+p {
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+}
+
+form input {
+  border-radius: 1rem !important;
+}
+
+.container {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px -5px #555;
+  max-width: 350px !important;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+button {
+  font-size: 1.25rem !important;
+  border-radius: 1.25rem !important;
+  margin: 10px 10px 0 0 !important;
+}
+
+p#result {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+p#result:empty {
+  display: none;
+}
+
+label {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
