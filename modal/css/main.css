@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+body {
+  background-color: cadetblue;
+  font-family: "Share Tech Mono", monospace;
+  color: #0009;
+}
+
+.card {
+  width: 50%;
+  height: 300px;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  padding: 1rem;
+  background-color: rgb(190, 190, 190);
+}
+header {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: -1rem;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 400px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+button {
+  margin: 5px;
+}
+
+.modal {
+  display: inline-flex !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.modal .modal-container {
+  margin: auto;
+  background: #fff;
+  padding: 10px;
+  text-align: left;
+  width: 85%;
+  max-width: 500px;
+  margin-top: 50px;
+  position: relative;
+  border-radius: 1.5rem;
+}
+.modal .background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0007;
+}
+.modal .header {
+  font-weight: bolder;
+  padding: 20px;
+  border-bottom: 1px solid #0002;
+  font-size: 20px;
+}
+
+.modal .header button {
+  position: absolute;
+  display: initial;
+  width: 50px;
+  height: 50px;
+  right: 15px;
+  top: 15px;
+  border: none;
+  border-radius: 1.2rem;
+}
+
+.modal .body {
+  padding: 20px;
+  font-size: 20px;
+  min-height: 200px;
+  text-align: left;
+}
+
+@media (min-width: 768px) and (min-height: 600px) {
+  .container {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
