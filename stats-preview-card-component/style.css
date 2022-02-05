@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+:root {
+  --text-background: hsl(246, 38%, 16%);
+  --white: hsl(255, 100%, 100%);
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(233, 46%, 7%);
+}
+
+body {
+  background: var(--Dark-blue);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  border-radius: 5px;
+  background: var(--text-background);
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 10%;
+}
+
+img {
+  width: 240px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+.text {
+  flex-direction: column;
+  width: 240px;
+  height: 200px;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.text #text-span {
+  color: var(--Desaturated-blue);
+}
+
+#text-title {
+  margin-top: 10px;
+  color: var(--Desaturated-blue);
+  font-size: 9px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+p #p-span {
+  margin-top: 10px;
+  font-size: 9px;
+  display: flex;
+}
