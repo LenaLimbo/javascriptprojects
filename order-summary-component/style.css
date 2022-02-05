@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+:root {
+  --white: hsl(255, 100%, 100%);
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background: url("./images/pattern-background-desktop.svg") no-repeat;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.container {
+  width: 327px;
+  background: transparent;
+  max-width: 450px;
+  max-height: 550px;
+  margin: 1px 0 50px 0 !important;
+}
+
+.card {
+  margin: 1px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+  border-radius: 15px;
+  overflow: hidden;
+  background: var(--Very-pale-blue);
+}
+
+.title {
+  font-size: 22px;
+  color: var(--Dark-blue);
+  text-align: center;
+  padding: 6px;
+  margin: 16px 0 16px 0;
+}
+
+p {
+  font-size: 15px;
+  color: var(--Desaturated-blue);
+  text-align: center;
+}
+
+.panel {
+  padding: 16px;
+  padding-top: 17px;
+  margin: 10px 24px;
+  display: flex;
+  align-items: center;
+  background: hsla(225, 89%, 93%, 0.445);
+  border-radius: 11px;
+  margin-bottom: 24px;
+}
+
+#panel-img {
+  height: 48px;
+  width: 48px;
+}
+
+.panel-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+span {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 3px 30px 0 5px;
+  padding: 5px;
+  font-weight: 900;
+}
+
+a {
+  font-weight: 700;
+  font-size: 13px;
+  color: #3829e0;
+  display: flex;
+}
+
+#name {
+  color: var(--Dark-blue);
+  font-weight: 900;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+#price {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--Desaturated-blue);
+  margin-bottom: 3px;
+}
+
+#btn-pay {
+  background: var(--Bright-blue) !important;
+  display: block;
+  margin: 0 24px;
+  font-weight: 900;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 11px;
+  box-shadow: 0 20px 20px rgb(56 42 225 / 19%);
+  margin-bottom: 24px;
+}
+
+#btn-cancel {
+  text-decoration: none;
+  margin: 10px 0 32px 0;
+  display: block;
+  text-align: center;
+}
