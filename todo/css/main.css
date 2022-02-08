@@ -23,9 +23,8 @@ body {
 
 .container {
   padding: 1.25rem;
-  width: 15rem;
-  height: 25rem;
-  max-width: 350px !important;
+  width: 100%;
+  max-width: 450px !important;
   padding: 20px;
   margin: 50px auto;
   border-radius: 0.5rem;
@@ -81,11 +80,6 @@ h2 {
   background-color: rgb(197, 57, 57);
 }
 
-button {
-  margin: 0 10px;
-  margin: 10px 80px;
-}
-
 form {
   margin-top: 10px;
   padding: 10px 5px;
@@ -93,8 +87,18 @@ form {
   background-color: var(--Pale-blue);
 }
 
+form input {
+  border-radius: 1rem !important;
+  height: 50px;
+  width: 100%;
+  font-size: 25px !important;
+  margin-bottom: 15px;
+}
+form button {
+  width: 100%;
+}
 .items {
-  padding: 50px;
+  padding: 2px;
   margin-top: 20px;
   border-radius: 5px;
   background: var(--Pale-blue);
