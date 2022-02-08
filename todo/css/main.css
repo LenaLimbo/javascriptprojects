@@ -1,3 +1,4 @@
+@import url("button.css");
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +28,6 @@ body {
   max-width: 350px !important;
   padding: 20px;
   margin: 50px auto;
-  background-color: var(--white);
   border-radius: 0.5rem;
 }
 
@@ -39,6 +39,46 @@ h2 {
 }
 h2 {
   font-size: 17px;
+}
+
+.items li h3 {
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.items ol {
+  padding: 0;
+  counter-reset: section;
+}
+
+.items li {
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 1rem;
+  background-color: #f0f0f0;
+  display: flex;
+  padding: 15px 10px 5px 20px;
+  justify-content: space-between;
+}
+.items li::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  position: absolute;
+}
+
+.items button.delete {
+  background-color: rgb(150, 53, 53);
+  padding: 13px 15px;
+  margin-bottom: 5px;
+  margin-top: -3px;
+}
+
+.items button.delete:after {
+  content: "×";
+  line-height: 28px;
+  background-color: rgb(197, 57, 57);
 }
 
 button {
